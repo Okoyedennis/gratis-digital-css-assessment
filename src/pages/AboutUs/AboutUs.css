@@ -1,0 +1,179 @@
+.about__banner{
+    display: flex; 
+    position: relative;
+}
+
+.about__banner-left{
+  filter: blur(10px);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+ background: transparent linear-gradient(180deg, #213F72 0%, #19073B 100%) 0% 0% no-repeat padding-box;
+  flex: 1;
+}
+
+.about__banner-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-title{
+    display: flex;
+    align-items: center;
+    margin-left: -10rem;
+    position: absolute;
+    z-index: 999; 
+    margin-bottom: 10rem;
+
+}
+
+.slide .icon{
+    width: 3rem;
+    height: auto;
+}
+
+.about-title  p{
+   text-transform: uppercase;
+}
+
+.about__banner-right h4{
+    font-size: 2.5rem;
+    font-weight: 500;
+     margin-left: -5rem;
+    position: absolute;
+    z-index: 999; 
+}
+
+.about__banner-right__bottom{
+    margin-top: 20rem;
+    padding: 5rem;
+}
+
+.about__banner-right__bottom p{
+    font-size: 15px;
+}
+
+section h1{
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.spec{
+    background-image: url(../../asset/Path1.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 4rem 0;
+}
+
+.about__second-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.about_row-left{
+    flex: 1;
+}
+
+.about_row-right{
+    flex: 1;
+}
+
+.about_row-header{
+    display: flex;
+    align-items: center;
+}
+
+.about_underline {
+   margin-right: 1rem;
+}
+
+.about_row-content{
+    padding: .5rem;
+}
+
+.about_row-content p{
+    font-size: 15px;
+}
+
+.about_row-content .last-child{
+    margin-top: 1rem;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #CACACA;
+    margin: 1rem 0;
+
+    display: none;
+   
+}
+
+.about__question{
+    background-image: url(../../asset/Path1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about__question-content{
+    padding: 3rem 0;
+}
+
+.contactLink .icon{
+    margin-top: 1rem;
+}
+
+.contactLink a{
+    text-decoration: none;
+    margin-right: .5rem;
+}
+
+.about__question-content  p{
+    margin-top: 0.6rem;
+}
+
+.footer{
+    background-image: url(../../asset/Path1.svg);
+}
+
+@media (max-width: 768px){
+
+    .about__banner-left{
+        display: none;
+    }
+
+    .about-title{
+    display: flex;
+    align-items: center;
+    margin-left: 0rem;
+    margin-bottom: 10rem;
+    z-index: -999; 
+   }
+
+   .about__banner-right h4{
+     margin-left: 0rem;
+    z-index: -999; 
+
+   }
+
+   .about__banner-right__bottom{
+    margin-top: 20rem;
+    padding: 5rem;
+    padding-left: 0rem;
+}
+
+hr{
+    display: block;
+}
+
+.about__second-row{
+display: flex;
+flex-direction: column;
+}
+
+}
